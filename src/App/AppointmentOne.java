@@ -7,7 +7,7 @@ import java.io.File;
 
 public class AppointmentOne {
     public static void main(String[] args) {
-        File file1 = new File("C://Полина//Программирование//Java - LEARNING//Projects//University//lab1_Polina_Batova//file1.txt");
+        File file1 = new File("file1.txt");
         ShapeCreator shapeCreator = new ShapeCreator(); //this object is responsible for creating shapes
         Shape shape1 = shapeCreator.createShapeFromFile(file1); //creating a shape from file
         File file2 = new File("file2.txt");
