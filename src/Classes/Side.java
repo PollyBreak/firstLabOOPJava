@@ -5,10 +5,9 @@ import java.util.List;
 
 //this class describes a side of a shape
 public class Side {
-    private List<Point> points;  //every side has points
+    private List<Point> points = points = new ArrayList<Point>();  //every side has points, initialization of a list of points
     private double length;
     public Side(){
-        points = new ArrayList<Point>(); //initialization of a list of points
     }
 
     public void setLength(double length) {

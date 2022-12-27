@@ -20,8 +20,8 @@ public class Parser {
             }
         }
 
-        double x = Double.parseDouble(coordinates[0]); //parse string to double
-        double y = Double.parseDouble(coordinates[1]);
+        int x = Integer.parseInt(coordinates[0]); //parse string to double
+        int y = Integer.parseInt(coordinates[1]);
         Point point = new Point(x,y);
         return point;
     }
