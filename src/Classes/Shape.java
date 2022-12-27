@@ -5,15 +5,13 @@ import java.util.List;
 
 public class Shape {
 
-    private List<Point> points;
-    private List<Side> sides;
+    private List<Point> points = new ArrayList<Point>(); //initialization of a list of points
+    private List<Side> sides = new ArrayList<Side>(); //initialization of a list of sides
     private double perimeter;
     private double longestSide;
     private double averageLength; //average length of the sides
 
     public Shape() {
-        points = new ArrayList<Point>(); //initialization of a list of points
-        sides = new ArrayList<Side>(); //initialization of a list of sides
     }
 
     public void addPoint(Point point){
