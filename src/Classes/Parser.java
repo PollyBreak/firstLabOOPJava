@@ -20,7 +20,7 @@ public class Parser {
             }
         }
 
-        int x = Integer.parseInt(coordinates[0]); //parse string to double
+        int x = Integer.parseInt(coordinates[0]); //parse string to int
         int y = Integer.parseInt(coordinates[1]);
         Point point = new Point(x,y);
         return point;
